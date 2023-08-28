@@ -25,7 +25,7 @@
           <li><a href="Articles.html">Articles</a></li>
           <li><a href="Videos.html">SocialMedia</a></li>
           <li><a href="menus.html">les Menus</a></li>
-          <li><a href="index.html">Pages</a></li>
+          <li><a href="pages.html">Pages</a></li>
         </ul>
       </div>
     </div>
@@ -51,8 +51,10 @@
         <h2>Astuce</h2>
         <section class="container">
           <div class="row">
-            <div class="col"><img src="https://s.w.org/images/home/screen-themes.png?4" alt=""></div>
-            <div class="col">
+            <div class="col-sm col-md-6 col-lg-6">
+              <img src="https://s.w.org/images/home/screen-themes.png?4" width="100%" alt="">
+            </div>
+            <div class="col-sm col-md-6 col-lg-6">
               <p>
                 Pour choisir un plugin, il faut se référer sur la popularité et le nombre de téléchargement de ce dernier, ainsi que la dérnière mise a jour. Tout ces détail font que le plugin est puissant et est trés utilisé par la communauté . <br>
                 Après avoir choisi le plugin qui nous intéresse, on clique sur "télécharger maintenant". <br>
@@ -61,11 +63,25 @@
                 => Le fait d'installer le plugin, un onglet contact et ajouter au menu "DASHBORD" ( tableau de bord en français).
                 => en cliquant sur ce nouveau lien "contact" permet de créer un formilaire de contact complet. <br>
                 => Le fait de cliquer sur ce formulaire , une page de visualisation de formulaire s'ouvre ave tous les champs .<br>
+                => Une configuration est nécessaire pour renseigner le mail du destinataire (Email), ainsi que les paramètres de tout les champs pour la bonne reception des Emmail emmis par les utilisateurs.  <br>
+                => A la fin du paramétrage , on sauvegarde le formulaire . <br>
+                => La page nous crée un code spécial (short code) que l'on doit coller dans notre page ,article ou widget... <br>
                 
               </p>
+              
+              
             </div>
           </div>
         </section>
+        <article>
+          <h4>Important à savoir</h4>
+          En WordPress et au dela du langage HTML, il y'a ce que l'on appelle "shortCode", un code réduit entre crochets à integrer directement de la même manière que le "html" dans les pages de construction.
+          <h4>Exemple</h4>
+          <span>[contact-form-7 id="66" title="formulaire de contact" ]</span> <br>
+          Ce code est à copier , puis aller sur la page "contact" , cliquer sur la partie visuel, puis coller le code dans le champ "paragraphe". <br>
+          => Appuyez sur "Mettre à jour", et la page est finalement créée.
+          
+        </article>
         
        
       </div> 
