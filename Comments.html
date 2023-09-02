@@ -31,78 +31,22 @@
         </ul>
       </div>
     </div>
-  </header> <main class="container">
+  </header>
+  <main class="container">
     <div class="row">
       <div class="col">
-        <h1>Introcution</h1>
-       <p>
-        l'utilsateur constitue l'élément le plus important dans l'architecture d'un site web, il est l'instrument clé de l'intéraction avec toute l'infrastructure du web via des formulaires d'inscription , de commande ,et de validation des données...<br>
-        Wordpress en tant que MVC consacre un outil trés important à l'utilisateur pour lui permettre d'intéragir, de s'inscrire ,d'envoyer des messages ,laisser des commentaires, ou meme faire des commandes.<br>
-        Question: Comment wordpress est-il organisé pour offrir à l'utilisateur la panoplie d'option pour une meilleure éxpérience ? c'est ce que nous aborderons dans ce cours.
-       </p>
-        <h2>Interface graphique</h2>
+        <h1 class=" py-5">Les Commentaires </h1>
         <p>
-          En haut à droite de la page d'accueil de Wordpress, on distingue l'icone de l'utilisateur, on en trouve "l'admin " , ainsi que l'option "modifier utilisateur" puis "Se déconnecter" .<br><br>
+          A chaque fin d'article de WordPress, le système est configuré de manière à ce que chaque visiteur pourra laisser un commentaire. Un formulaire est dédié pour cet effet. <br>
+          Lorsqu'on est Administrateur connécté, le champ de commentaire est accéssible sans contrainte de saisir les champs d'identification car le système détecte dèja l'origine du commentaire , et qu'il est configuré pour cela.<br><br>
 
-          Au niveau de "DASHBORD", l'option "Utilisateur" nous offre plusieurs option d'utilisation: <br>
-          => Tous les utilisateurs <br>
-          => Ajouter <br>
-          => Voir Profil<br><br>
-        </p>
+        En revanche, lorsqu'un utilisateur est connécté en tant qu'utilisateur ou autre (Auteur, Editeur, Abonné ...) ,la tache de pouvoir laisser un commentaire oblige la saisi des champs de l'identification par le simple fait de donner une référence et une origine des commentaires laissés, par exemple (Nom, Adresse Email, site Web "facultatif"), et cela dépend de la configuration préalable du système de commentaires.<br><br>
 
-          <h2>Tous Les Utilisateurs</h2>
-          <p>
-         L'oglet "Tous les Utilisateurs" nous offre quant à lui une vision sur tous les utilisateurs de notre application. On en trouve "Admin".
-            Si on procède au changement du statut de l'utilisateur, on se retrouve sur une interface riche en options, par exemple:
-            <br>
-            options personnelles: <br>
-            * editeur visuel => Désactiver l'editeur visuelpour écrire.<br>
-            * Couleurs de l'interface d'administration .<br>
-            * raccourcis clavier => activer pour la modération des commentaires(+ d'infos). <br>
-            * barre d'outils => activer la barre d'outils lorsque vous visitez le site. <br>
-            * Identifiant<br>
-            * Prénom <br>
-            * Nom <br>
-            * Pseudo (obligatoire)<br>
-            * Nom à afficher publiquement <br>
-            * infos de contact <br>
-            * Adresse de messagerie (obligatoire)<br>
-            * Site web (facultatif) <br>
-            * A propos de vous (renseignements Biographiques) <br>
-            * Illustration de profil : Vous pouvez changer votre image de profil en passant par "Gravatar". <br>
-            * Géstion de compte : "nouveaux mot de passe"
-                                  "session" : Vous n'êtes connecté qu'à cet endroit.
-            * METTRE A JOUR.
-            <h2>Option Utilisateurs:</h2>
-            <p>
-              Imaginons quu'est entrain de développer un blog , et qu'on a besoin que d'autres utilisateurs puissent intervenir pour alimenter ce dernier,sans pour autant changer l'architecture du site.<br>
-              A cet effet, l'option utilisateur noius donne l'avantage d'ajouter d'autres utilisateurs avec spécification de leurs rôles. <br><br>
-
-              Sur l'interface " Ajouter utilisateur", on crée un nouveaux:
-              <br>
-              => identifiant <br>
-              => Addresse messagerie <br>
-              => Prénom <br>
-              => Nom <br>
-              => Site Web <br>
-              => Mot de passe <br> 
-              => Envoyer une notification à l'utilisateur <br>
-              => Rôle : Abonné <br>
-            _________ : Contributeur<br>
-            _________ : Auteur<br>
-            _________ : Editeur<br>
-            _________ : Administrateur <br>
-            </p>
-<br><br>
-        <h2>Conclusion</h2>
-        <p>
-          Selon le rôle donné à chaque utilisateur, l'interface graphique de "Wordpress" change et s'adapte .<br>
-          Par exemple :<br>
-          un utilsateur qui a un role d'administrateuraura une intérface wordpress complète avec toutes les oiptions lui permettant une administration et modification totale de l'architécture de l'application. <br>
-          Un utilisateur qui a un role d'Auteur aura une intérface différente de celle de l'administrateur, avec une restriction au niveau des options(pas d'extension par exemple...).
+          Chaque commentaire laissé par un utilisateur passe apr un système de modération configuré préalmablement par la gestion de commentaires. Alors une question s'oppose: <br>
+         => Ou est ce qu'on peut configurer le système de gestion de commentaires ?
           
         </p>
-       </div>
+      </div>
     </div>
   </main>
 
